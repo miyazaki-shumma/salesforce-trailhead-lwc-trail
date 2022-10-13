@@ -1,3 +1,10 @@
 **/jsconfig.json
 
 **/.eslintrc.json
+
+# なんかエラー出るので導入
+# === Deploy Errors
+# PROJECT PATH                                                        ERRORS
+# ──────────────────────────────────────────────────────────────────  ──────────────────────────────────────────────────────────────
+# force-app/main/default/lwc/helloWorld/__tests__/helloWorld.test.js  LWC1702: Invalid LWC imported identifier "createElement" (1:9)
+**/*.test.js
